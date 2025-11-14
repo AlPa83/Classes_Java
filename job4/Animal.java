@@ -9,7 +9,7 @@ public class Animal {
         this.espece = espece;
     }
 
-    public void sePresenter() {
+    public void parler() {
         System.out.println("Je suis un(e) " + espece + " et je m'appelle " + nom);
     }
 }

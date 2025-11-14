@@ -7,9 +7,9 @@ public class Main {
     Etudiant e3 = new Etudiant("Robert", 15);
     Etudiant e4 = new Etudiant("Eve", 7);
 
-    e1.afficherMoyenne();
-    e2.afficherMoyenne();
-    e3.afficherMoyenne();
-    e4.afficherMoyenne();
+    e1.afficherInfos();
+    e2.afficherInfos();
+    e3.afficherInfos();
+    e4.afficherInfos();
     }
 }

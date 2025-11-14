@@ -9,8 +9,9 @@ public class Etudiant {
         this.nom = nom;
         this.moyenne = moyenne;
     }
-    // Méthode afficherMoyenne
-    public void afficherMoyenne() {
+
+    // Méthode afficherInfos
+    public void afficherInfos() {
         System.out.println(nom + " - Moyenne : " + moyenne + " - " + (moyenne >= 10 ? "Admis" : "Recalé"));
 
     }
