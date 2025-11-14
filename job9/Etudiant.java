@@ -32,7 +32,7 @@ public class Etudiant {
     }
 
     public void setAge(int age) {
-        if (age > 0) {
+        if (age > 0 && age < 65) {
             this.age = age;
         }
     }
@@ -43,7 +43,5 @@ public class Etudiant {
         }
 
     }
-
-
 
 }
